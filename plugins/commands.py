@@ -44,12 +44,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/srmoviehub'),
-            InlineKeyboardButton('💠 ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 💠', url='https://t.me/sr_request_group1')
+            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/nikhil_saini12'),
+            InlineKeyboardButton('💠 ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 💠', url='https://t.me/mahakal177')
             ],[      
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'),
-            InlineKeyboardButton('🔔 Download 🔔', url='https://t.me/moviesrequestaccepted')
+            InlineKeyboardButton('🔔 Download 🔔', url='https://t.me/MRAUPLOADS')
             ],[
             InlineKeyboardButton('✅ ꜱᴜʙꜱᴄʀɪʙᴇ ✅', url='https://www.youtube.com/channel/UCX1CbQN_Pczcawfpz-raO1g')
         ]]
@@ -93,12 +93,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/srmoviehub'),
-            InlineKeyboardButton('💠 ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 💠', url='https://t.me/sr_request_group1')
+            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/nikhil_saini12'),
+            InlineKeyboardButton('💠 ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 💠', url='https://t.me/mahakal177')
             ],[      
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'),
-            InlineKeyboardButton('🔔 Download 🔔', url='https://t.me/moviesrequestaccepted')
+            InlineKeyboardButton('🔔 Download 🔔', url='https://t.me/MRAUPLOADS')
             ],[
             InlineKeyboardButton('✅ ꜱᴜʙꜱᴄʀɪʙᴇ ✅', url='https://www.youtube.com/channel/UCX1CbQN_Pczcawfpz-raO1g')
         ]]
