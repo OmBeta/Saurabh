@@ -413,7 +413,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'),
             InlineKeyboardButton('🔞 18+Movies 🔞', url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
             ],[
-            InlineKeyboardButton('🛎Youtube Movies🛎', url='https://www.youtube.com/channel/UCX1CbQN_Pczcawfpz-raO1g')
+            InlineKeyboardButton('🛎Youtube Movies🛎', url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
