@@ -70,9 +70,12 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "ꜱᴜʙꜱᴄʀɪʙᴇ", url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
+            ],[
+                InlineKeyboardButton(
+                    "ᴊᴏɪɴ ɢʀᴏᴜᴘ", url=invite_link.invite_link
                 )
-            ]
+                ]
         ]
 
         if message.command[1] != "subscribe":
@@ -84,7 +87,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**𝘗𝘭𝘦𝘢𝘴𝘦 𝘧𝘪𝘳𝘴𝘵 𝘚𝘶𝘣𝘴𝘤𝘳𝘪𝘣𝘦 𝘔𝘺 𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘊𝘩𝘢𝘯𝘯𝘦𝘭 & 𝘑𝘰𝘪𝘯 𝘔𝘺 𝘎𝘳𝘰𝘶𝘱 𝘵𝘰 𝘶𝘴𝘦 𝘵𝘩𝘪𝘴 𝘉𝘰𝘵!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
